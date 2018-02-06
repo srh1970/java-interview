@@ -1,6 +1,9 @@
+.classpath
+.project
+.settings/
 target/
-nbproject/
+nbproject/*
 .settings
-runtime/
+runtime/*
 *~
 .DS_Store

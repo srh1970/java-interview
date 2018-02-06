@@ -1,6 +1,6 @@
-/target/
-/nbproject/
+target/
+nbproject/
 .settings
-/runtime/
+runtime/
 *~
 .DS_Store

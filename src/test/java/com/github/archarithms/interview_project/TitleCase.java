@@ -1,7 +1,5 @@
 package com.github.archarithms.interview_project;
 
-import com.github.archarithms.App;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -29,21 +27,26 @@ public class TitleCase extends TestCase
     return new TestSuite(TitleCase.class);
   }
 
-  public void testConvertToTitleCase()
-  {
-    String testStr = "Title Case";
-    assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
-  }
 
-  public void testNumbers()
-  {
-    String testStr = "Number 3";
-    assertTrue(testStr.equals(App.convertToTitleCase("NUMBER_3")));
-  }
+  /*
+   * UNCOMMENT THE UNIT TESTS TO RUN THEM. FEEL FREE TO ADD MORE!
+   */
 
-  public void testOtherChars()
-  {
-    String testStr = "Truth Track";
-    assertTrue(testStr.equals(App.convertToTitleCase("TRUTH-TRACK")));
-  }
+  // public void testConvertToTitleCase()
+  // {
+  // String testStr = "Title Case";
+  // assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
+  // }
+  //
+  // public void testNumbers()
+  // {
+  // String testStr = "Number 3";
+  // assertTrue(testStr.equals(App.convertToTitleCase("NUMBER_3")));
+  // }
+  //
+  // public void testOtherChars()
+  // {
+  // String testStr = "Truth Track";
+  // assertTrue(testStr.equals(App.convertToTitleCase("TRUTH-TRACK")));
+  // }
 }

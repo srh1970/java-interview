@@ -1,13 +1,15 @@
 package com.github.archarithms;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+  public static String convertToTitleCase(final String inpStr)
+  {
+    return inpStr;
+  }
+
+  public static String convertUnixToDateString(final Long inpUnixSeconds)
+  {
+    return String.valueOf(inpUnixSeconds);
+  }
 }

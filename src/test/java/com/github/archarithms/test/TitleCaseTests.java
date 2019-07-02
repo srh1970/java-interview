@@ -1,52 +1,45 @@
-package com.github.archarithms.interview_project;
+package com.github.archarithms.test;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+import com.github.archarithms.App;
 
 /**
- * Unit test for simple App.
+ * TitleCaseTests unit tests for simple App.
  */
-public class TitleCase extends TestCase
+public class TitleCaseTests
 {
-  /**
-   * Create the test case
-   *
-   * @param testName name of the test case
-   */
-  public TitleCase(String testName)
-  {
-    super(testName);
-  }
 
-  /**
-   * @return the suite of tests being tested
-   */
-  public static Test suite()
-  {
-    return new TestSuite(TitleCase.class);
-  }
+    /*
+     * UNCOMMENT THE UNIT TESTS TO RUN THEM. FEEL FREE TO ADD MORE!
+     */
 
+    /**
+     * Test the testConvertToTitleCase method
+     */
+    @Test
+    public void testConvertToTitleCase() {
+        String testStr = "Title Case";
+        assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
+    }
 
-  /*
-   * UNCOMMENT THE UNIT TESTS TO RUN THEM. FEEL FREE TO ADD MORE!
-   */
+    /**
+     * Test the testNumbers method
+     */
+    @Test
+    public void testNumbers() {
+        String testStr = "Number 3";
+        assertTrue(testStr.equals(App.convertToTitleCase("NUMBER_3")));
+    }
 
-  // public void testConvertToTitleCase()
-  // {
-  // String testStr = "Title Case";
-  // assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
-  // }
-  //
-  // public void testNumbers()
-  // {
-  // String testStr = "Number 3";
-  // assertTrue(testStr.equals(App.convertToTitleCase("NUMBER_3")));
-  // }
-  //
-  // public void testOtherChars()
-  // {
-  // String testStr = "Truth Track";
-  // assertTrue(testStr.equals(App.convertToTitleCase("TRUTH-TRACK")));
-  // }
+    /**
+     * Test the testOtherChars method
+     */
+    @Test
+    public void testOtherChars() {
+        String testStr = "Truth Track";
+        assertTrue(testStr.equals(App.convertToTitleCase("TRUTH-TRACK")));
+    }
 }

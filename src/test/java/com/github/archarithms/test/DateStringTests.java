@@ -1,10 +1,8 @@
 package com.github.archarithms.test;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.joda.time.DateTime;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 import org.junit.jupiter.api.Test;
 
 import com.github.archarithms.App;
@@ -33,8 +31,6 @@ public class DateStringTests
      */
     @Test
     public void testNullCase() {
-        DateTime dt = new DateTime();
-        DateTimeFormatter fmt = DateTimeFormat.forPattern("MMMM d, yyyy");
-        assertTrue(dt.toString(fmt).equals(App.convertUnixToDateString(null)));
+        assertThrows(Exception.class, () -> App.convertUnixToDateString(null));
     }
 }

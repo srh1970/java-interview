@@ -27,6 +27,15 @@ public class DateStringTests
     }
 
     /**
+     * Test the testConvertUnixToDateString method
+     */
+    @Test
+    public void testConvertUnixToDateEmptyString() {
+      String testStr = "October 13, 2021";
+      assertTrue(testStr.equals(App.convertUnixToDateString()));
+    }
+
+    /**
      * Test the testNullCase method
      */
     @Test

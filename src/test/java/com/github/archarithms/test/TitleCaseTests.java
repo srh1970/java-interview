@@ -47,4 +47,15 @@ public class TitleCaseTests
       String testStr = "Case Three Extra Chars";
       assertTrue(testStr.equals(App.convertToTitleCase("CASE-THREE_extra[chars]///")));
     }
+
+    /**
+     * Test the testConvertToTitleCase method
+     */
+    @Test
+    public void testEmptyString() {
+        String testStr = "Title Case";
+        assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
+    }
+
+    
 }

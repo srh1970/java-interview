@@ -1,11 +1,12 @@
 # Archarithm's Coding Challenge - 1 & 2
 
 ## Challenge 1
-Create a function that takes in a constant-formatted (all caps, 
+1.1 - Create a function that takes in a constant-formatted (all caps, 
 words separated by underscores) string and returns the string 
 in "title case" (see examples below). The function should remove all non alphanumeric
 characters and replace them with spaces. But no spaces at the end
-of the result. A `null` input should throw an error.
+of the result. 
+1.2 - A `null` input should throw an error.
 
 If you so choose feel free to leverage third party libraries to complete your solution.
 
@@ -15,9 +16,9 @@ For example:
 
 
 ## Challenge 2
-Create a function that takes in a unix epoch time in seconds (long data type) and returns a String 
-that is the input timestamp converted and formatted as month day, year (see below). If no timestamp is given the function
-should return today’s date. If the input is null or has an incorrect type, an error should be
+2.1 - Create a function that takes in a unix epoch time in seconds (long data type) and returns a String 
+that is the input timestamp converted and formatted as month day, year (see below). 
+2.2 - If the input is null or has an incorrect type, an error should be
 thrown.
 
 If you so choose feel free to leverage third party libraries to complete your solution.

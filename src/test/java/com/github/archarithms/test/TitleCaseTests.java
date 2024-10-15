@@ -12,10 +12,6 @@ import com.github.archarithms.App;
 public class TitleCaseTests
 {
 
-    /*
-     * UNCOMMENT THE UNIT TESTS TO RUN THEM. FEEL FREE TO ADD MORE!
-     */
-
     /**
      * Test the testConvertToTitleCase method
      */

@@ -2,6 +2,8 @@
 
 ## Getting started
 Create a github codespace. 
+![image](https://github.com/user-attachments/assets/0fd8e6f2-4ef7-419b-a2fd-7e98c37ea885)
+
 
 Run unit tests with: `mvn test` or `mvn install` or by using the codespace VSCode debugger.
 

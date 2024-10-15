@@ -2,7 +2,7 @@
 
 ## Getting started
 Create a github codespace (recommended approach) or clone the repo. 
-
+![image](https://github.com/user-attachments/assets/5ab694fc-9485-420b-8dbd-fd1411f58984)
 
 Run unit tests with: `mvn test` or `mvn install` from the terminal or by using the codespace debugger.
 

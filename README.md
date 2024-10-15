@@ -7,7 +7,7 @@ Run unit tests with: `mvn test` or `mvn install` from the terminal or by using t
 
 Refer to the coding challenge instructions found in `codingChallenge.md`
 
-Complete both of the challenges listed in `codingChallenge.md` and follow the instructions below to submit
+Complete all of the challenges listed in `codingChallenge.md` and follow the instructions below to submit
 your solution. Good luck!
 
 ## Instructions

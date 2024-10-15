@@ -1,16 +1,9 @@
 # Arcarithm's Coding Challenge - Overview
 
-## Software Requirements
-Java  - https://www.java.com/en/
-
-Maven - http://maven.apache.org
-
-Junit 5 - https://junit.org/junit5/
-
 ## Getting started
-Clone the project, clean, and compile (no unit tests) with: `mvn clean install -DskipTests`.
+Create a github codespace. 
 
-Run unit tests with: `mvn test` or `mvn install`.
+Run unit tests with: `mvn test` or `mvn install` or by using the codespace VSCode debugger.
 
 Refer to the coding challenge instructions found in `codingChallenge.md`
 
@@ -28,6 +21,10 @@ your solution. Good luck!
 
 5. Write corresponding method in `com.github.archarithms.App` for challenge 2.
 
-6. Ensure all unit tests run successfully with: `mvn test`.
+6. Create all challenge 3 unit tests (and write additional unit tests if needed) in `com.github.archarithms.test.ArrayManipulationTests`.
 
-7. Push your feature branch and submit a pull request.
+5. Write corresponding method in `com.github.archarithms.App` for challenge 3.
+
+7. Ensure all unit tests run successfully with: `mvn test` or by using the codespace VS Code java debugger.
+
+8. Commit your changes to your feature branch and submit a pull request.

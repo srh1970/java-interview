@@ -1,7 +1,8 @@
 # Arcarithm's Coding Challenge - Overview
 
 ## Getting started
-Open the github codespace `Scott-Hurst-Codespace`. 
+Create a github codespace (recommended approach) or clone the repo. 
+
 
 Run unit tests with: `mvn test` or `mvn install` from the terminal or by using the codespace debugger.
 

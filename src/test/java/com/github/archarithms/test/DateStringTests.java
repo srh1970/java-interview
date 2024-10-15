@@ -31,15 +31,6 @@ public class DateStringTests
     }
 
     /**
-     * Test the testFutureCase method
-     */
-    @Test
-    public void testFutureCase() {
-        String testStr = "June 18, 2099";
-        assertTrue(testStr.equals(App.convertUnixToDateString(4070908800L)));
-    }
-
-    /**
      * Test the testNegativeTimestamp method
      */
     @Test

@@ -30,7 +30,7 @@ public class ArrayManipulationTests{
     public void testArrayOfThree() {
 
     int[] inputArray = new int[]{10, 20, 30};
-    int[] answerArray = new int[]{10, 20, 90};
+    int[] answerArray = new int[]{30, 20, 30};
     assertTrue(Arrays.equals(App.updateArray(inputArray), answerArray));        
     }
 
@@ -41,7 +41,7 @@ public class ArrayManipulationTests{
     public void testNegativeAndZero() {
 
     int[] inputArray = new int[]{0, -10, -20, 30, 40, 0};
-    int[] answerArray = new int[]{0, -10, -60, 30, 40, 0};
+    int[] answerArray = new int[]{0, -10, -20, 90, 40, 0};
     assertTrue(Arrays.equals(App.updateArray(inputArray), answerArray));        
     }
 

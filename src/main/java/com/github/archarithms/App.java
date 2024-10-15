@@ -11,6 +11,9 @@ public class App
 {
   public static String convertToTitleCase(final String inpStr)
   {
+    if (inpStr == null){
+      throw new IllegalArgumentException("Input cannot be null");
+    }
     // Update the returnValue to pass the Unit Test.
     String returnValue = new String();
 

@@ -24,3 +24,18 @@ If you so choose feel free to leverage third party libraries to complete your so
 
 For example, passing a unix epoch time `1499144400` in seconds (long data type)
 would return `"July 4, 2017"` in this date format (string data type).
+
+## Challenge 3
+
+Conditions
+Create a function which triples (*3) every third element, starting with 0, in the existing array named array.
+  ```java
+  int[] array = new int[]{-10, 20, 30, -40, -50, 60, 70, -80, -90};
+
+  // Iterate over array elements and update array values
+
+  System.out.println(Arrays.toString(array));
+  ```
+
+
+ 

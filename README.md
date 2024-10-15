@@ -1,4 +1,4 @@
-# Archarithm's Coding Challenge - Overview
+# Arcarithm's Coding Challenge - Overview
 
 ## Software Requirements
 Java  - https://www.java.com/en/

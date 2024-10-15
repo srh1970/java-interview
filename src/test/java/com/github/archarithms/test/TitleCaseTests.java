@@ -42,4 +42,13 @@ public class TitleCaseTests
         String testStr = "Truth Track";
         assertTrue(testStr.equals(App.convertToTitleCase("TRUTH-TRACK")));
     }
+
+    /**
+     * Test the End of line character method
+     */
+    @Test
+    public void testEndChars() {
+      String testStr = "Case Three Extra Chars";
+      assertTrue(testStr.equals(App.convertToTitleCase("CASE-THREE_extra[chars]///")));
+    }
 }

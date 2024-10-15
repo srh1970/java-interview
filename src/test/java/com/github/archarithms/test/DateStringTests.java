@@ -29,4 +29,22 @@ public class DateStringTests
     public void testNullCase() {
         assertThrows(Exception.class, () -> App.convertUnixToDateString(null));
     }
+
+    /**
+     * Test the testFutureCase method
+     */
+    @Test
+    public void testFutureCase() {
+        String testStr = "June 18, 2099";
+        assertTrue(testStr.equals(App.convertUnixToDateString(4070908800L)));
+    }
+
+    /**
+     * Test the testNegativeTimestamp method
+     */
+    @Test
+    public void testNegativeTimestamp() {
+        assertThrows(IllegalArgumentException.class, () -> App.convertUnixToDateString(-100L));
+    }
+
 }

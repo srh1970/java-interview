@@ -57,5 +57,31 @@ public class TitleCaseTests
         assertTrue(testStr.equals(App.convertToTitleCase("TITLE_CASE")));
     }
 
+    /**
+     * Test the testNullInput method
+     */
+    @Test
+    public void testNullInput() {
+        assertThrows(IllegalArgumentException.class, () -> App.convertToTitleCase(null));
+    }
+
+    /**
+     * Test the testEmptyString method
+     */
+    @Test
+    public void testEmptyString() {
+        String testStr = "";
+        assertTrue(testStr.equals(App.convertToTitleCase("")));
+    }
+
+    /**
+     * Test the testNonAlphanumeric method
+     */
+    @Test
+    public void testNonAlphanumeric() {
+        String testStr = "Hola World";
+        assertTrue(testStr.equals(App.convertToTitleCase("Hola!@_World!")));
+    }
+
     
 }

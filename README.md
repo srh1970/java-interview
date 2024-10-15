@@ -1,10 +1,9 @@
 # Arcarithm's Coding Challenge - Overview
 
 ## Getting started
-Open the github codespace for `master` or create your own personal codespace. 
-![image](https://github.com/user-attachments/assets/ff4fbdf8-3385-41c9-a1a5-874d302bf241)
+Open the github codespace `Scott-Hurst-Codespace`. 
 
-Run unit tests with: `mvn test` or `mvn install` or by using the codespace VSCode debugger.
+Run unit tests with: `mvn test` or `mvn install` from the terminal or by using the codespace debugger.
 
 Refer to the coding challenge instructions found in `codingChallenge.md`
 
